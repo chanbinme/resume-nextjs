@@ -6,6 +6,7 @@ export declare namespace IRow {
 
   export interface Left {
     title: string;
+    // subTitle?: JSX.Element;
     subTitle?: JSX.Element;
   }
 
@@ -13,6 +14,7 @@ export declare namespace IRow {
     title?: string;
     subTitle?: string;
     descriptions?: Description[];
+    image?: string;
   }
 
   /**

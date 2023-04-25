@@ -5,16 +5,27 @@ const education: IEducation.Payload = {
 
   list: [
     {
-      title: 'Foo University',
-      subTitle: 'Bar Major Bachelor',
-      startedAt: '2010-03',
-      // endedAt: '2010-02',
-    },
-    {
-      title: 'Foo High School',
-      subTitle: 'Graduated',
-      startedAt: '2007-03',
-      endedAt: '2010-02',
+      title: '코드스테이츠 (Codestates)',
+      subTitle: 'Software Engineering Bootcamp, Backend 41기',
+      startedAt: '2022-08',
+      endedAt: '2023-02',
+      descriptions: [
+        {
+          content: 'Java와 Spring Boot을 메인으로 서버를 개발할 수 있도록 학습했습니다.',
+        },
+        {
+          content: '데이터베이스 설계와 관리, JPA를 활용한 CRUD API 개발을 할 수 있습니다.',
+        },
+        {
+          content: 'RESTful API 디자인과 테스트 방법을 학습했습니다.',
+        },
+        {
+          content: 'TDD 방법론과 JUnit, Mockito 등을 활용하여 테스트 코드를 작성할 수 있습니다.',
+        },
+        {
+          content: 'AWS EC2, RDS, S3 등을 이용하여 애플리케이션을 배포하고 관리할 수 있습니다.',
+        },
+      ],
     },
   ],
 };

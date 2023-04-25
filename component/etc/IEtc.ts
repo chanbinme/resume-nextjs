@@ -1,4 +1,5 @@
 import { ICommon } from '../common/ICommon';
+import { IRow } from '../common/IRow';
 
 export declare namespace IEtc {
   /**
@@ -35,5 +36,7 @@ export declare namespace IEtc {
      * @example '2015-03'
      */
     endedAt?: string;
+
+    descriptions: IRow.Description[];
   }
 }

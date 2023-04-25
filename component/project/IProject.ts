@@ -12,6 +12,7 @@ export declare namespace IProject {
   export interface Payload extends ICommon.Payload {
     /** ### 프로젝트 리스트 */
     list: Item[];
+
   }
 
   export interface Item {

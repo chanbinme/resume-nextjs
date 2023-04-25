@@ -1,6 +1,6 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faBlogger } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/_sample.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
@@ -10,38 +10,33 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Lorem ipsum',
-    small: '(LI)',
+    title: '김찬빈',
+    small: '백엔드 개발자',
   },
   contact: [
     {
-      title: 'foo@bar.xyz',
+      title: 'chanbin.backend@gmail.com',
       link: '#',
       icon: faEnvelope,
     },
     {
-      title: 'Please contact me by email',
+      title: '010-2929-7527',
       icon: faPhone,
       badge: true,
     },
     {
-      title: 'https://github.com',
-      link: 'https://github.com/uyu423/resume-nextjs',
+      title: 'https://github.com/chanbinme',
+      link: 'https://github.com/chanbinme',
       icon: faGithub,
     },
     {
-      link: 'https://www.facebook.com/iu.loen',
-      icon: faFacebook,
-    },
-    {
-      title: 'YouTube',
-      link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
-      // icon: faRss,
-      icon: faYoutube,
+      title: 'https://green-bin.tistory.com',
+      link: 'https://green-bin.tistory.com',
+      icon: faBlogger,
     },
   ],
   notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
+    title: "한 가지를 대하는 태도를 보면, 만 가지를 대하는 태도를 알 수 있다.",
     icon: faBell,
   },
 };
