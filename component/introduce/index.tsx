@@ -34,7 +34,18 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
         </Col>
         <Col sm={12} md={9}>
           {payload.contents.map((content, index) => (
-            <p key={index.toString()}>{content}</p>
+            // <p key={index.toString()}>{content}</p>
+            <span key={index.toString()}>
+              {content.content}
+              {/* eslint-disable-next-line jsx-a11y/alt-text */}
+              {content.postImage == null ? null : (
+                <img
+                  src={content.postImage}
+                  style={{ margin: '10px', marginBottom: '30px', width: '100%' }}
+                />
+              )}
+              <br />
+            </span>
           ))}
           <p className="text-right">
             <small>Latest Updated</small>{' '}

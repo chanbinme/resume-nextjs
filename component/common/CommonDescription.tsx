@@ -81,7 +81,7 @@ function Description({ description }: PropsWithChildren<{ description: IRow.Desc
       return (
         <li style={getFontWeight(weight)}>
           {content} <HrefTargetBlank url={postHref} text={postHref} />{' '}
-          <img src={postImage} alt={postImage} />
+          <img src={postImage} alt={postImage} style={{ width: '50%' }} />
         </li>
       );
     }
@@ -95,7 +95,15 @@ function Description({ description }: PropsWithChildren<{ description: IRow.Desc
     if (postImage) {
       return (
         <li style={getFontWeight(weight)}>
-          {content} <img src={postImage} alt={postImage} />
+          {content}
+          <div>
+            {' '}
+            <img
+              src={postImage}
+              alt={postImage}
+              style={{ width: '70%', textAlign: 'center', borderRadius: '0%', margin: '10px' }}
+            />
+          </div>
         </li>
       );
     }
