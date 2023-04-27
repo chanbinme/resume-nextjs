@@ -36,7 +36,7 @@ const profile: IProfile.Payload = {
     },
   ],
   notice: {
-    title: "한 가지를 대하는 태도를 보면, 만 가지를 대하는 태도를 알 수 있다.",
+    title: '한 가지를 대하는 태도를 보면, 만 가지를 대하는 태도를 알 수 있다.',
     icon: faBell,
   },
 };

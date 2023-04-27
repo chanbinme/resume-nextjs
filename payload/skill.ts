@@ -18,7 +18,7 @@ const backend: ISkill.Skill = {
     {
       title: 'Spring MVC',
     },
- 
+
     {
       title: 'Spring Security',
     },

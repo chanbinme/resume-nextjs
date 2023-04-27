@@ -42,6 +42,7 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
                 <img
                   src={content.postImage}
                   style={{ margin: '10px', marginBottom: '30px', width: '100%' }}
+                  alt=""
                 />
               )}
               <br />
