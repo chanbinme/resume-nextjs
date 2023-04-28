@@ -1,21 +1,5 @@
-import {
-  faAddressBook,
-  faBlog,
-  faBook,
-  faBookOpen,
-  faBookReader,
-  faBookmark,
-  faEnvelope,
-  faNotesMedical,
-  faPen,
-  faPenAlt,
-  faPencilRuler,
-  faPhone,
-  faTag,
-  faTextWidth,
-} from '@fortawesome/free-solid-svg-icons';
-import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faBlogger, faEvernote, faThinkPeaks } from '@fortawesome/free-brands-svg-icons';
+import { faBlog, faEnvelope, faPen, faPhone, faTag } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/_sample.jpg';
 import { IProfile } from '../component/profile/IProfile';
 

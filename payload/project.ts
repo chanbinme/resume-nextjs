@@ -206,23 +206,6 @@ const project: IProject.Payload = {
                   href:
                     'https://www.notion.so/66Challenge-Commit-message-convention-d1c4505193bb455fba13cf48a776dcc9',
                 },
-                // {
-                //   content: 'RDS Connection timed out 연결 오류 해결',
-                //   href: 'https://green-bin.tistory.com/34',
-                // },
-                // {
-                //   content:
-                //     'AmazonS3ResourceStorage : Unable to execute HTTP request: Timeout waiting for connection from pool 해결',
-                //   href: 'https://green-bin.tistory.com/42',
-                // },
-                // {
-                //   content: 'EC2 배포 시 Scheduled가 지정된 시간에 실행되지 않는 문제 해결',
-                //   href: 'https://green-bin.tistory.com/20',
-                // },
-                // {
-                //   content: 'NoSuchBeanDefinitionException 에러 해결',
-                //   href: 'https://green-bin.tistory.com/19',
-                // },
               ],
             },
             {
