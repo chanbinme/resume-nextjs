@@ -1,6 +1,6 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faAddressBook, faBlog, faBook, faBookOpen, faBookReader, faBookmark, faEnvelope, faNotesMedical, faPen, faPenAlt, faPencilRuler, faPhone, faTag, faTextWidth } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faBlogger } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faBlogger, faEvernote, faThinkPeaks } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/_sample.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
@@ -11,7 +11,7 @@ const profile: IProfile.Payload = {
   image,
   name: {
     title: '김찬빈',
-    small: '백엔드 개발자',
+    small: '',
   },
   contact: [
     {
@@ -32,12 +32,17 @@ const profile: IProfile.Payload = {
     {
       title: 'https://green-bin.tistory.com',
       link: 'https://green-bin.tistory.com',
-      icon: faBlogger,
+      icon: faBlog,
     },
+    {
+      title: 'https://url.kr/qcl98k',
+      link: 'https://url.kr/qcl98k',
+      icon: faPen
+    }
   ],
   notice: {
     title: '한 가지를 대하는 태도를 보면, 만 가지를 대하는 태도를 알 수 있다.',
-    icon: faBell,
+    icon: faTag,
   },
 };
 
