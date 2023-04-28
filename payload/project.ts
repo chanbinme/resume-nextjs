@@ -43,7 +43,7 @@ const project: IProject.Payload = {
                 {
                   content: 'Rest Docs API 문서 자동화',
                 },
-              ]
+              ],
             },
             {
               content: '기여한 내용',
@@ -86,7 +86,8 @@ const project: IProject.Payload = {
                   href: 'https://green-bin.tistory.com/78',
                 },
                 {
-                  content: 'InvalidDefinitionException: cannot deserialize from Object value 에러 해결',
+                  content:
+                    'InvalidDefinitionException: cannot deserialize from Object value 에러 해결',
                   href: 'https://green-bin.tistory.com/80',
                 },
               ],
@@ -140,32 +141,32 @@ const project: IProject.Payload = {
               content: '개발 인원',
               descriptions: [
                 {
-                  content: '총 7명 (백엔드 3명 + 프론트엔드 4명)'
-                }
-              ]
+                  content: '총 7명 (백엔드 3명 + 프론트엔드 4명)',
+                },
+              ],
             },
             {
               content: '담당 역할',
               descriptions: [
                 {
-                  content: 'API 개발(습관, 인증 게시물)'
+                  content: 'API 개발(습관, 인증 게시물)',
                 },
                 {
-                  content: 'S3 이미지 서버 구축'
+                  content: 'S3 이미지 서버 구축',
                 },
                 {
-                  content: 'Git Flow, Git Convention 정립'
+                  content: 'Git Flow, Git Convention 정립',
                 },
                 {
-                  content: '알림 서비스 구축'
+                  content: '알림 서비스 구축',
                 },
                 {
-                  content: 'CI/CD 구성 및 RDS DB 세팅'
+                  content: 'CI/CD 구성 및 RDS DB 세팅',
                 },
                 {
-                  content: 'OAuth 로그인(Google, Kakao, Naver)'
+                  content: 'OAuth 로그인(Google, Kakao, Naver)',
                 },
-              ]
+              ],
             },
             {
               content: '기여한 내용',
