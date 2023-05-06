@@ -27,6 +27,20 @@ const education: IEducation.Payload = {
         },
       ],
     },
+    {
+      title: '인덕대학교',
+      subTitle: '시각디자인',
+      startedAt: '2012-03',
+      endedAt: '2018-02',
+      descriptions: [],
+    },
+    {
+      title: '신일고등학교',
+      subTitle: '인문계 졸업',
+      startedAt: '2008-03',
+      endedAt: '2012-02',
+      descriptions: [],
+    },
   ],
 };
 
