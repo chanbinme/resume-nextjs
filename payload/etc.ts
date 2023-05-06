@@ -5,7 +5,7 @@ const etc: IEtc.Payload = {
 
   list: [
     {
-      title: '주식회사 모',
+      title: '주식회사 모 (MOH)',
       subTitle: '(비개발 경력) 컨텐츠 팀/Contents Director',
       startedAt: '2018-01',
       endedAt: '2022-07',
