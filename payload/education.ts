@@ -37,7 +37,7 @@ const education: IEducation.Payload = {
     {
       title: '신일고등학교',
       subTitle: '인문계 졸업',
-      startedAt: '2008-03',
+      startedAt: '2009-03',
       endedAt: '2012-02',
       descriptions: [],
     },
