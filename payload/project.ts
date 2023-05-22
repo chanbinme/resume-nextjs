@@ -66,6 +66,10 @@ const project: IProject.Payload = {
                   href: 'https://green-bin.tistory.com/83',
                 },
                 {
+                  content: 'ConcurrentModificationException 에러 해결',
+                  href: 'https://green-bin.tistory.com/111',
+                },
+                {
                   content: '순환 참조 문제 해결',
                   href: 'https://green-bin.tistory.com/52',
                 },
@@ -221,49 +225,49 @@ const project: IProject.Payload = {
         },
       ],
     },
-    {
-      title: '스택오버플로우 클론 프로젝트',
-      startedAt: '2023-01',
-      endedAt: '2023-01',
-      where: '',
-      descriptions: [
-        {
-          content: '팀장, 백엔드',
-          weight: 'MEDIUM',
-          descriptions: [
-            {
-              content: '[Github] : ',
-              postHref: 'https://github.com/codestates-seb/seb41_pre_014/tree/dev',
-            },
-            {
-              content: '[개발 인원] : 총 5명 (백엔드 2명 + 프론트엔드 3명)',
-            },
-            {
-              content: '맡은 역할',
-              // weight: 'MEDIUM',
-              descriptions: [
-                { content: '팀장, 백엔드 총괄' },
-                { content: '팀장으로 팀원 이탈로 인한 팀 위기 해결' },
-                { content: 'API 개발(회원, 게시판, 북마크, 댓글)' },
-                { content: '데이터베이스 테이블 기획 및 ERD 설계' },
-                { content: 'Spring Security를 통한 로그인 로그아웃 구현' },
-                { content: 'Rest Docs API 문서 자동화' },
-                { content: 'JWT 토큰 기반 인증 구현' },
-                { content: 'EC2 수동 배포' },
-              ],
-            },
-            {
-              content: '기술 스택',
-              descriptions: [
-                {
-                  content: 'Java11, Spring Boot, Spring Security, MySQL, AWS(EC2, S3, RDS)',
-                },
-              ],
-            },
-          ],
-        },
-      ],
-    },
+    // {
+    //   title: '스택오버플로우 클론 프로젝트',
+    //   startedAt: '2023-01',
+    //   endedAt: '2023-01',
+    //   where: '',
+    //   descriptions: [
+    //     {
+    //       content: '팀장, 백엔드',
+    //       weight: 'MEDIUM',
+    //       descriptions: [
+    //         {
+    //           content: '[Github] : ',
+    //           postHref: 'https://github.com/codestates-seb/seb41_pre_014/tree/dev',
+    //         },
+    //         {
+    //           content: '[개발 인원] : 총 5명 (백엔드 2명 + 프론트엔드 3명)',
+    //         },
+    //         {
+    //           content: '맡은 역할',
+    //           // weight: 'MEDIUM',
+    //           descriptions: [
+    //             { content: '팀장, 백엔드 총괄' },
+    //             { content: '팀장으로 팀원 이탈로 인한 팀 위기 해결' },
+    //             { content: 'API 개발(회원, 게시판, 북마크, 댓글)' },
+    //             { content: '데이터베이스 테이블 기획 및 ERD 설계' },
+    //             { content: 'Spring Security를 통한 로그인 로그아웃 구현' },
+    //             { content: 'Rest Docs API 문서 자동화' },
+    //             { content: 'JWT 토큰 기반 인증 구현' },
+    //             { content: 'EC2 수동 배포' },
+    //           ],
+    //         },
+    //         {
+    //           content: '기술 스택',
+    //           descriptions: [
+    //             {
+    //               content: 'Java11, Spring Boot, Spring Security, MySQL, AWS(EC2, S3, RDS)',
+    //             },
+    //           ],
+    //         },
+    //       ],
+    //     },
+    //   ],
+    // },
   ],
 };
 
