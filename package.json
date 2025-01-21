@@ -1,15 +1,15 @@
 {
   "name": "resume-nextjs",
-  "lastestUpdatedAt": "2023-04-25",
-  "version": "1.2.0",
+  "lastestUpdatedAt": "2024-11-11",
+  "version": "1.3.0",
   "description": "Static HTML based RESUME made with next.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env DEBUG=yosume:* next",
-    "build": "next build",
+    "dev": "cross-env DEBUG=yosume:* NODE_OPTIONS=--openssl-legacy-provider next",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider next build",
     "prebuild": "npm install && npm run lint",
-    "start": "next start",
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider next start",
     "export:with-typedoc": "npm run export && npm run typedoc",
     "export": "cross-env NODE_ENV=production next export --outdir docs/",
     "preexport": "npm run clean && npm run build",
@@ -18,10 +18,10 @@
     "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://chanbinme.github.io/resume-nextjs",
+  "homepage": "https://uyu423.github.io/resume-nextjs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chanbinme/resume-nextjs.git"
+    "url": "git+https://github.com/uyu423/resume-nextjs.git"
   },
   "keywords": [
     "resume",
@@ -35,7 +35,7 @@
   "contributors": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chanbinme/resume-nextjs/issues"
+    "url": "https://github.com/uyu423/resume-nextjs/issues"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
@@ -81,7 +81,7 @@
     "prettier": "^1.19.1",
     "rimraf": "^3.0.2",
     "typedoc": "~0.19.2",
-    "typescript": "3.9.x"
+    "typescript": "^4.9.5"
   },
   "resolutions": {
     "**/minimist": "^1.2.3"
