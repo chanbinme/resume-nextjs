@@ -28,7 +28,7 @@ export declare namespace IExperience {
 
   export interface Position {
     /** ### (직장)역할 명 (or Subtitle) */
-    title: string; 
+    title: string;
 
     /**
      * ### (직장)경험 시작 일

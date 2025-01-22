@@ -63,9 +63,9 @@ export default function ExperienceRow({
           <h4 style={Style.gray}>{periodTitle}</h4>
         </Col>
         <Col sm={12} md={9}>
-          <h4 style={{ display: "inline-flex", alignItems: "center" }}>
-            {item.title}{" "}
-            <span style={{ fontSize: "65%", display: "inline-flex", alignItems: "center" }}>
+          <h4 style={{ display: 'inline-flex', alignItems: 'center' }}>
+            {item.title}{' '}
+            <span style={{ fontSize: '65%', display: 'inline-flex', alignItems: 'center' }}>
               {isCurrentlyEmployed && (
                 <Badge color="primary" className="ml-1">
                   재직 중
@@ -76,8 +76,8 @@ export default function ExperienceRow({
               </Badge>
             </span>
           </h4>
-          <br/>
-          <div  style={{ display: "inline-flex", alignItems: "center" }}>
+          <br />
+          <div style={{ display: 'inline-flex', alignItems: 'center' }}>
             <i style={Style.gray}>{item.subTitle}</i>
           </div>
         </Col>

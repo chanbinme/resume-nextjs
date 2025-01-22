@@ -1,6 +1,5 @@
 import { IExperience } from '../component/experience/IExperience';
 
-
 const experience: IExperience.Payload = {
   disable: false,
   disableTotalPeriod: false,
@@ -18,7 +17,7 @@ const experience: IExperience.Payload = {
             '복잡한 로직 및 시스템 설정 문서화하여 반복적인 문의에 대한 신속한 대응 체계 구축',
             '직영몰 선물하기 서비스 API 설계 및 화면 개발',
             '직영몰 배송비 부과 API 설계 및 화면 개발',
-            '사내 인사평가 시스템 API 설계 및 화면 개발'
+            '사내 인사평가 시스템 API 설계 및 화면 개발',
           ],
           skillKeywords: [
             'Java',
