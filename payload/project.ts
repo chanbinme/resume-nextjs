@@ -5,9 +5,9 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'Travel with me',
+      title: '소셜미디어를 담은 여행 동행 모집 서비스 개발',
       startedAt: '2023-03',
-      where: '소셜미디어를 담은 여행 동행 모집 서비스',
+      where: '사이드 팀 프로젝트',
       descriptions: [
         {
           content: '백엔드',

@@ -53,7 +53,7 @@ const etc: IEtc.Payload = {
     },
     {
       title: '(주)모',
-      subTitle: '(비개발 경력) 컨텐츠 팀/Contents Director',
+      subTitle: '(비개발 경력) 컨텐츠 팀 | 컨텐츠 기획자 | 정규직',
       startedAt: '2018-01',
       endedAt: '2022-08',
       descriptions: [
@@ -84,7 +84,7 @@ const etc: IEtc.Payload = {
               href: 'https://www.tiktok.com/@zzalgun',
             },
             {
-              content: 'Youtube(팔로워 : 3.2만 명, 136만 조회수 달성)',
+              content: 'Youtube(팔로워 : 3.2만 명, 총 조회수 : 12M)',
               href: 'https://www.youtube.com/@thezvengers1754/videos',
             },
           ],

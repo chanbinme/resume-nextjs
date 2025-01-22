@@ -30,7 +30,7 @@ const introduce: IIntroduce.Payload = {
       content: '',
     },
     {
-      content: '• 개발 중 겪는 기술적 어려움을 개인 시간에 학습하고, 노션과 블로그에 정리합니다.',
+      content: '• 개발 중 겪는 기술적 어려움을 개인 시간에 학습하고, 블로그에 정리합니다.',
     },
     {
       content:
@@ -44,7 +44,7 @@ const introduce: IIntroduce.Payload = {
         'https://user-images.githubusercontent.com/108569685/234633538-c0955be0-c30b-46f1-b08e-0de7780b9499.png',
     },
   ],
-  sign: 'Chan Bin Kim',
+  sign: 'ChanBin Kim',
   // sign: packageJson.author.name,
   // latestUpdated: '2019-07-24',
   latestUpdated: lastestUpdatedAt,

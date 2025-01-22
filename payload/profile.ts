@@ -1,4 +1,4 @@
-import { faBlog, faEnvelope, faPen, faPhone, faTag } from '@fortawesome/free-solid-svg-icons';
+import { faBlog, faEnvelope, faPhone, faTag } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/_sample.jpg';
 import { IProfile } from '../component/profile/IProfile';
@@ -32,11 +32,6 @@ const profile: IProfile.Payload = {
       title: 'https://green-bin.tistory.com',
       link: 'https://green-bin.tistory.com',
       icon: faBlog,
-    },
-    {
-      title: 'https://url.kr/qcl98k',
-      link: 'https://url.kr/qcl98k',
-      icon: faPen,
     },
   ],
   notice: {
